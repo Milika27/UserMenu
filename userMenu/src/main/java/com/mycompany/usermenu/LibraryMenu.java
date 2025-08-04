@@ -1,0 +1,56 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.librarymenu;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author gelde
+ */
+public class LibraryMenu {
+
+    public static void main(String[] args) {
+           Scanner in = new Scanner (System.in);
+    
+       System.out.println ("Library menu");
+       System.out.println ("1. Borrow a book");
+       System.out.println ("2. Return a book");
+       System.out.println ("3. View all books");
+       System.out.println ("4. Pay late fees");
+       System.out.println ("Enter your choice: ");
+           
+           int choice = in.nextInt ();
+           
+           if (choice == 1)
+           {
+               System.out.println("You chose to borrow a book.");
+           }
+           else if (choice == 2)
+                   {
+                       System.out.println("You have chosen to return a book.");
+                   }
+           else if (choice == 3)
+           {
+               System.out.println("You have chosen to view all books.");
+           }
+           else if (choice == 4)
+           {
+               System.out.println("You chose to pay late fees.");
+           }
+           else
+           {
+               System.out.println("Invalid Choice.");
+           }
+     
+       
+       
+       
+    }
+}
+
+
+    
+
